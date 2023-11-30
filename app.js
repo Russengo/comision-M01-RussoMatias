@@ -12,7 +12,7 @@ const commentRouter = require("./src/routes/comment-routes.js");
 
 const app = express();
 
-//middlewares
+//middlewar
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(
